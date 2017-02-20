@@ -5,8 +5,7 @@
     <meta charset="utf-8" />
     <title>Adaptive website.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="libs/bootstrap/js/bootstrap.m n.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -15,7 +14,7 @@
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="css/style.css" />
+     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
 </head>
 
@@ -55,14 +54,14 @@
                     <div><a href="#">home</a></div>
                 </li>
                 <li>
-                    <div><a href="#">elements</a><i class="toggle-menu-i glyphicon glyphicon-circle-arrow-down"></i></div>
+                    <div><a href="#">elements</a><i class="toggle-menu-i fa fa-chevron-circle-down"></i></div>
                 </li>
                 <li>
-                    <div><a href="#">features</a><i class="toggle-menu-i glyphicon glyphicon-circle-arrow-down"></i></div>
+                    <div><a href="#">features</a><i class="toggle-menu-i fa fa-chevron-circle-down"></i></div>
                 </li>
                 <li>
-                    <div><a href="#">extras</a> <i class="toggle-menu-i glyphicon glyphicon-circle-arrow-down"></i>
-                        <ul class="mob-menu sub_list">
+                    <div><a href="#">extras</a> <i class="toggle-menu-i fa fa-chevron-circle-down"></i>
+                        <ul class="mob-menu sub_list invinsible">
                             <li><a href="#">Subitem</a></li>
                             <li><a href="#">Subitem</a></li>
                             <li><a href="#">Subitem</a></li>
@@ -70,16 +69,16 @@
                     </div>
                 </li>
                 <li>
-                    <div><a href="#">pages</a><i class="toggle-menu-i glyphicon glyphicon-circle-arrow-down"></i></div>
+                    <div><a href="#">pages</a><i class="toggle-menu-i fa fa-chevron-circle-down"></i></div>
                 </li>
                 <li>
-                    <div><a href="#">blog</a><i class="toggle-menu-i glyphicon glyphicon-circle-arrow-down"></i></div>
+                    <div><a href="#">blog</a><i class="toggle-menu-i fa fa-chevron-circle-down"></i></div>
                 </li>
                 <li>
-                    <div><a href="#">gallery</a><i class="toggle-menu-i glyphicon glyphicon-circle-arrow-down"></i></div>
+                    <div><a href="#">gallery</a><i class="toggle-menu-i fa fa-chevron-circle-down"></i></div>
                 </li>
                 <li>
-                    <div><a href="#">shop</a><i class="toggle-menu-i glyphicon glyphicon-circle-arrow-down"></i></div>
+                    <div><a href="#">shop</a><i class="toggle-menu-i fa fa-chevron-circle-down"></i></div>
                 </li>
             </ul>
         </div>
@@ -184,19 +183,19 @@
             <div class="container">
                 <div class="row">
                     <div class="counter-subblock col-xs-6 col-sm-6 col-md-3">
-                        <div class="counter-number" data-num="197">0</div>
+                        <div class="counter-number">197</div>
                         <div class="counter-text">cups of coffee</div>
                     </div>
                     <div class="counter-subblock col-xs-6 col-sm-6 col-md-3">
-                        <div class="counter-number" data-num="23">0</div>
+                        <div class="counter-number" data-num="23">23</div>
                         <div class="counter-text">coders</div>
                     </div>
                     <div class="counter-subblock col-xs-6 col-sm-6 col-md-3">
-                        <div class="counter-number" data-num="98">0</div>
+                        <div class="counter-number" data-num="98">98</div>
                         <div class="counter-text">designers</div>
                     </div>
                     <div class="counter-subblock col-xs-6 col-sm-6 col-md-3">
-                        <div class="counter-number" data-num="7230">0</div>
+                        <div class="counter-number" data-num="7230">7230</div>
                         <div class="counter-text">lines</div>
                     </div>
                 </div>
@@ -348,48 +347,20 @@
             <div id="footer-bot">
                 <p>© 2017 All Rights Reserved <a>Terms of Use and Privacy Policy</a></p>
             </div>
-        </section>  
-        
-        <button id="btn-to-top"><i class="glyphicon glyphicon-menu-up"></i></button>     
+        </section>
+
+        <button id="btn-to-top"><i class="glyphicon glyphicon-menu-up"></i></button>
     </main>
 
+    <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <script src="js/headhesive.min.js"></script>
-    <script src="js/js-main.js"></script>
-    <script src="js/numcount.js"></script>
-    <script src="js/jq-main.js"></script>
+    <script src="js/jquery.spincrement.min.js"></script>
+
     <script src="slick/slick.min.js"></script>
-    <script>
-        $('.slider').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            infinite: true,
-            appendArrows: '.slider-arrows',
-            responsive: [
-                {
-                    breakpoint: 1005,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                    }
-    },
-                {
-                    breakpoint: 785,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-    },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-    }
-  ]
-        });
-    </script>
+    <script src="js/common.js"></script>
+    <script src="js/slick-options.js"></script>
 </body>
 
 </html>
