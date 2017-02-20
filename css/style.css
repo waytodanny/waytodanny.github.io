@@ -191,7 +191,7 @@ a:hover, a:focus{
     font-size: 21px;
     text-transform: uppercase;
 }
-.header-els-wrapper h1 p{
+.header-els-wrapper h1 span{
     letter-spacing: 0.02em;
     font-size: 58px;
     font-weight: 400;

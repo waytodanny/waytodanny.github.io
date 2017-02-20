@@ -41,7 +41,7 @@
     .header-els-wrapper h1 small{
         font-size: 17px;
     }
-    .header-els-wrapper h1 p{
+    .header-els-wrapper h1 span{
         font-size: 33px;
         font-weight: bold;
     }
@@ -246,7 +246,7 @@
     .header-els-wrapper h1 small{
         display: none;
     }
-    .header-els-wrapper h1 p{
+    .header-els-wrapper h1 span{
         font-size: 29px; 
         font-weight: 400;
     }
@@ -461,9 +461,6 @@ animation: none !important;
     }
     #about_us img{
         height: 190px;
-    }
-    #features{
-     
     }
     .progress{
         width: 89%;
