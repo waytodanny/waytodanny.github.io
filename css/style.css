@@ -102,7 +102,7 @@ a:hover, a:focus{
     width: 100%;
     transform: translateY(-100%);
     transition: 0.3s;
-    background-color: white;
+    background-color: #fff;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0.12), 3px 4px 8px 0px rgba(0, 0, 0, 0.11);
 }
 .headhesive--stick{
@@ -169,7 +169,7 @@ a:hover, a:focus{
 #header{
     height: 768px;
     width: 100%;
-    background-image: url(../img/header-1.jpg);
+    background-image: url(../img/header-1-min.jpg);
     background-size: cover;
 }
 .header-els-wrapper{

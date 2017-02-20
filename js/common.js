@@ -8,16 +8,22 @@ $(document).ready(function () {
 });
 
 /*Change header background*/
-var images = [ '../img/header-1.jpg', '../img/header-3.jpg',  '../img/header-4.jpg'],
-    i = 1,
-    imageHead = $('#header');
-setInterval(function() {
-      imageHead.css({'background-image': 'url(' + images[i] + ')', 'transition': '0.5s linear', 'background-size': 'cover'});
-      i++;
-      if (i == images.length) {
-        i =  0;
-      }
-}, 5000);
+    $(window).on("load", function () {
+        var images = ['../img/header-1-min.jpg', '../img/header-2-min.jpg', '../img/header-3-min.jpg'],
+            i = 1,
+            imageHead = $('#header');
+        setInterval(function () {
+            imageHead.css({
+                'background-image': 'url(' + images[i] + ')',
+                'transition': '0.5s linear',
+                'background-size': 'cover'
+            });
+            i++;
+            if (i == images.length) {
+                i = 0;
+            }
+        }, 4000);
+    });
 
 /*Mobile nav sublist*/
 $(document).ready(function () {
