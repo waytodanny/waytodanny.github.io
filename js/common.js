@@ -14,15 +14,13 @@ $(window).on("load", function () {
         imageHead = $('#header');
     setInterval(function () {
         imageHead.css({
-            'background-image': 'url(' + images[i] + ')',
-            'transition': '0.5s linear',
-            'background-size': 'cover'
+            'background-image': 'url(' + images[i] + ')'
         });
         i++;
         if (i == images.length) {
             i = 0;
         }
-    }, 5000);
+    }, 3000);
 });
 
 /*Mobile nav sublist*/
